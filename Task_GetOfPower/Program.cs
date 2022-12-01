@@ -7,11 +7,9 @@
     if (n < 1) Console.WriteLine("You inputed NOT positive number!");
     else
     {
-
+        Console.WriteLine($"The result of raising number {a} to the power of {n} is {GetExponentiation(a, n)}");
     }
-
-    Console.WriteLine($"The result of raising number {a} to the power of {n} is {GetExponentiation(a, n)}");
- }
+}
 catch
 {
     System.Console.WriteLine("You should enter integer number only!!!");
