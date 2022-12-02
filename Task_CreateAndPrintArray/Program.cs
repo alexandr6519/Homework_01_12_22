@@ -1,4 +1,6 @@
-﻿int[] numbers = ReadNumbersAndCreateArray(8);
+﻿// Задача 29: Напишите программу, которая задаёт массив из 8 целых чисел
+//  с клавиатуры и далее выводит массив на экран в одну строку.
+int[] numbers = ReadNumbersAndCreateArray(8);
 if (numbers.Length > 0) PrintArray(numbers);
 
 int[] ReadNumbersAndCreateArray(int n)
